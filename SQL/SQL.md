@@ -1,4 +1,4 @@
-##Basics
+## Basics
 Connection String  
 ```
 HOST = tesla.epa.gov
@@ -17,7 +17,7 @@ Change Password
 SET PASSWORD = "MyPassword"
 ```
 
-##Connecting with Python 3.x
+## Connecting with Python 3.x
 Package to install for Python 3.x = pymysql https://github.com/PyMySQL/PyMySQL  
 Example:
 ```python
@@ -40,7 +40,7 @@ try:
 finally:
     connection.close()
 ```
-##Connecting with R
+## Connecting with R
 Good article on HOWTO at https://www.r-bloggers.com/accessing-mysql-through-r/
 ```R
 install.packages("RMySQL")
